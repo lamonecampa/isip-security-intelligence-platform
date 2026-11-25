@@ -34,3 +34,8 @@ All routes except health and login require a session.
 
 ## Deployment
 Use HTTPS, change secrets, restrict access, encrypt backups, configure evidence retention, and review third-party disclosure before enabling urlscan. This is an MVP starter, not a production-certified investigation suite.
+
+## Topology diagrams
+See [the topology guide](docs/topologies.md) for the logical architecture, Docker deployment, isolated experimental network, evidence workflow, and a suggested test matrix.
+
+![ISIP logical architecture](docs/topology-architecture.svg)
